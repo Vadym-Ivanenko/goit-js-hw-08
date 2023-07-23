@@ -6,7 +6,7 @@ import { galleryItems } from './gallery-items';
 
 console.log(galleryItems);
 
-const galleryContainer = document.querySelector('div.gallery');
+const galleryContainer = document.querySelector('.gallery');
 const galleryMarkup = createElementGalleryMarkup(galleryItems);
 galleryContainer.insertAdjacentHTML('beforeend', galleryMarkup);
 
